@@ -1,0 +1,41 @@
+body {
+  font-family: Arial;
+}
+
+.card {
+  width: 625px;
+}
+
+.poll__title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+#poll__answers {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+button {
+  flex: 1;
+  box-shadow: inset 0 0 5px 5px rgba(240, 240, 240, 0.5);
+}
+
+button:hover {
+  background-color: #020262FF;
+}
+
+.stat__answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+span {
+  font-weight: bold;
+  text-align: end;
+}
+
+.stat__title {
+  text-align: center;
+}
